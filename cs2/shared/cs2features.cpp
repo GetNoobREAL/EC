@@ -174,8 +174,8 @@ inline void cs2::features::update_settings(void)
 		config::aimbot_smooth     = 4.5f;
 		break;
 	case 252:
-		config::aimbot_button     = 317;
-		config::triggerbot_button = 321;
+		config::aimbot_button     = 0;
+		config::triggerbot_button = 0;
 		config::aimbot_fov        = 3.0f;
 		config::aimbot_smooth     = 4.0f;
 		break;
@@ -204,6 +204,7 @@ inline void cs2::features::update_settings(void)
 //added rage config on 253
 //255 turned off walls, only triggerbot now
 //254 is same as 255 but added walls
+//252 walls only 
 	//
 	default:
 		config::aimbot_button     = 317;
