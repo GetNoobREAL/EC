@@ -174,28 +174,36 @@ inline void cs2::features::update_settings(void)
 		config::aimbot_smooth     = 4.5f;
 		break;
 	case 252:
-		config::aimbot_button     = 317;
+		config::aimbot_button     = 0;
 		config::triggerbot_button = 321;
 		config::aimbot_fov        = 3.0f;
 		config::aimbot_smooth     = 4.0f;
 		break;
 	case 253:
-		config::aimbot_button     = 317;
+		config::aimbot_button     = 0;
 		config::triggerbot_button = 321;
-		config::aimbot_fov        = 3.5f;
-		config::aimbot_smooth     = 3.5f;
+		config::aimbot_fov        = 10.0f;
+		config::aimbot_smooth     = 0.0f;
 		break;
+	//
+	// 253 rage 
+	//
 	case 254:
-		config::aimbot_button     = 317;
+		config::aimbot_button     = 0;
 		config::triggerbot_button = 321;
-		config::aimbot_fov        = 4.0f;
-		config::aimbot_smooth     = 3.0f;
+		config::aimbot_fov        = 2.0f;
+		config::aimbot_smooth     = 4.0f;
 		break;
+	//
+	//legit is 254
+	//legit without walls is 255
+	//
 	case 255:
-		config::aimbot_button     = 317;
+		config::aimbot_button     = 0;
 		config::triggerbot_button = 321;
-		config::aimbot_fov        = 4.5f;
-		config::aimbot_smooth     = 2.5f;
+		config::aimbot_fov        = 2.0f;
+		config::aimbot_smooth     = 4.0f;
+		config::visuals_enabled   = 0; 
 		break;
 	default:
 		config::aimbot_button     = 317;
