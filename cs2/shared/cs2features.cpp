@@ -171,13 +171,13 @@ inline void cs2::features::update_settings(void)
 		config::aimbot_button     = 317;
 		config::triggerbot_button = 321;
 		config::aimbot_fov        = 2.5f;
-		config::aimbot_smooth     = 4.5f;
+		config::aimbot_smooth     = 5.5f;
 		break;
 	case 252:
 		config::aimbot_button     = 0;
-		config::triggerbot_button = 0;
-		config::aimbot_fov        = 3.0f;
-		config::aimbot_smooth     = 4.0f;
+		config::triggerbot_button = 321;
+		config::aimbot_fov        = 2.0f;
+		config::aimbot_smooth     = 5.0f;
 		break;
 	case 253:
 		config::aimbot_button     = 0;
@@ -186,16 +186,16 @@ inline void cs2::features::update_settings(void)
 		config::aimbot_smooth     = 0.0f;
 		break;
 	case 254:
-		config::aimbot_button     = 0;
+		config::aimbot_button     = 317;
 		config::triggerbot_button = 321;
 		config::aimbot_fov        = 2.0f;
-		config::aimbot_smooth     = 4.0f;
+		config::aimbot_smooth     = 5.0f;
 		break;
 	case 255:
-		config::aimbot_button     = 0;
+		config::aimbot_button     = 317;
 		config::triggerbot_button = 321;
 		config::aimbot_fov        = 2.0f;
-		config::aimbot_smooth     = 4.0f;
+		config::aimbot_smooth     = 5.0f;
 		config::visuals_enabled   = 0;
 		break;
 	//
